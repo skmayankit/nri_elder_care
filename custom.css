@@ -1,0 +1,7 @@
+:root {
+  --success: #2eb82e;
+}
+.hero { background: linear-gradient(135deg, var(--success), #28a745); }
+.hover-lift { transition: all 0.3s ease; }
+.hover-lift:hover { transform: translateY(-10px); box-shadow: 0 20px 40px rgba(0,0,0,0.15) !important; }
+.price-tag { box-shadow: 0 10px 30px rgba(0,0,0,0.1); }
